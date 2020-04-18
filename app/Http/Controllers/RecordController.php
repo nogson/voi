@@ -29,9 +29,7 @@ class RecordController extends Controller
 
         $sound->fill($data)->save();
 
-        $sounds = Sound::orderBy('created_at', 'desc')->get();
-
-        return ['sounds' => $sounds];
+        return ['sound' => Sound::orderBy('created_at', 'desc')->first()];
 
 //        $file = $request->file('sound');
 //        // var_dump($file);
