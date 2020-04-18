@@ -15,7 +15,8 @@ class CrateSoundsTable extends Migration
     {
         Schema::create('sounds', function (Blueprint $table) {
             $table->id();
-            $table->integer('avatar');
+            $table->string('avatar');
+            $table->string('sound');
             $table->timestamps();
         });
     }
@@ -27,6 +28,6 @@ class CrateSoundsTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('sounds');
     }
 }

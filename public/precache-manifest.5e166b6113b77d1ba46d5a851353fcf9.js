@@ -13,15 +13,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "ac5ced904b58e93683c4",
-    "url": "/js/about.f72feed2.js"
+    "url": "/common/about.f72feed2.common"
   },
   {
     "revision": "e0dfb2f5faccd2cdd0fc",
-    "url": "/js/app.d53c0912.js"
+    "url": "/common/app.d53c0912.common"
   },
   {
     "revision": "4d8a24f52da583518c90",
-    "url": "/js/chunk-vendors.0d1020ad.js"
+    "url": "/common/chunk-vendors.0d1020ad.common"
   },
   {
     "revision": "8eff00fb23e5046e8587fb699e79e093",
