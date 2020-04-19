@@ -112,6 +112,7 @@
 <style scoped lang="scss">
   $btn-size: 60px;
   $color-primary: #38c867;
+  $max-width:300px;
 
   .rec_wrap {
     position: fixed;
@@ -199,10 +200,10 @@
     }
 
     100% {
-      right: calc(50% - 400px / 2);
-      bottom: calc(50% - 400px / 2);
-      width: 400px;
-      height: 400px;
+      right: calc(50% - #{$max-width} / 2);
+      bottom: calc(50% - #{$max-width} / 2);
+      width: $max-width;
+      height: $max-width;
       background: rgba($color-primary, 0.9);
     }
   }
@@ -210,10 +211,10 @@
 
   @keyframes close {
     0% {
-      right: calc(50% - 400px / 2);
-      bottom: calc(50% - 400px / 2);
-      width: 400px;
-      height: 400px;
+      right: calc(50% - #{$max-width} / 2);
+      bottom: calc(50% - #{$max-width} / 2);
+      width: $max-width;
+      height: $max-width;
       background: rgba($color-primary, 0.9);
     }
 

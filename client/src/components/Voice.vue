@@ -39,7 +39,7 @@
         }
 
         get sound(): string {
-            return `http://localhost/${this.item.sound}`
+            return `/${this.item.sound}`
         }
 
         toggle() {
