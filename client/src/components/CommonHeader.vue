@@ -20,7 +20,7 @@
 
 <style scoped lang="scss">
   header{
-    padding: 40px;
+    padding: 20px 40px;
     display: flex;
     align-items: center;
   }

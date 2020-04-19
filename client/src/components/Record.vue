@@ -66,7 +66,6 @@
                 headers: {'content-type': 'multipart/form-data'}
             }).then((res: any) => {
                 this.$emit('update', res.data)
-                console.log(res.data)
             }).catch((error: any) => {
                 new Error(error)
             });
@@ -144,6 +143,7 @@
     line-height: $btn-size;
     border-radius: $btn-size;
     font-size: 18px;
+    border: none;
   }
 
   .recording_wrap {
@@ -173,6 +173,7 @@
     right: 50%;
     transform: translateY(-50%);
     transform: translateX(-50%);
+    border: none;
   }
 
 
@@ -185,6 +186,7 @@
     padding: 10px 20px;
     border-radius: 100px;
     font-weight: bold;
+    border: none;
   }
 
   @keyframes open {

@@ -62,7 +62,7 @@
 
 <style scoped lang="scss">
   .voice {
-    margin: 0 20px;
+    margin: 0 10px;
     background: url("~@/assets/images/neck.png") no-repeat;
     background-position: 0 115px;
   }
