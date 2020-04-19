@@ -66,6 +66,8 @@
                 headers: {'content-type': 'multipart/form-data'}
             }).then((res: any) => {
                 this.$emit('update', res.data)
+                alert(res)
+
             }).catch((error: any) => {
                 new Error(error)
                 alert(error)
@@ -143,7 +145,7 @@
     text-align: center;
     line-height: $btn-size;
     border-radius: $btn-size;
-    font-size: 18px;
+    font-size: 16px;
     border: none;
   }
 
@@ -187,7 +189,6 @@
     padding: 10px 20px;
     border-radius: 100px;
     font-weight: bold;
-    border: none;
   }
 
   @keyframes open {
