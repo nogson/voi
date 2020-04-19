@@ -68,6 +68,7 @@
                 this.$emit('update', res.data)
             }).catch((error: any) => {
                 new Error(error)
+                alert(error)
             });
         }
 
