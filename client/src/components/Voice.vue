@@ -44,6 +44,7 @@
 
         toggle() {
             const audio: any = this.$refs.audio
+            console.log(audio)
             if (this.isPlay) {
                 audio.pause()
             } else {

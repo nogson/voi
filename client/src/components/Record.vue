@@ -49,7 +49,6 @@
                     this.audioExtension = this.getExtension(e.data.type);
                 });
                 this.recorder.addEventListener("stop", () => {
-                    console.log('okk')
                     const audioBlob = new Blob(this.audioData);
                     this.save(audioBlob)
                 });
@@ -66,11 +65,11 @@
                 headers: {'content-type': 'multipart/form-data'}
             }).then((res: any) => {
                 this.$emit('update', res.data)
-                alert(res)
+                console.log('s')
 
             }).catch((error: any) => {
                 new Error(error)
-                alert(error)
+                console.log('e')
             });
         }
 
