@@ -8,8 +8,8 @@ import "./registerServiceWorker";
 
 Vue.config.productionTip = false;
 
-//axios.defaults.baseURL = 'http://localhost/';
-axios.defaults.baseURL = 'https://voooice.herokuapp.com/'
+axios.defaults.baseURL = 'http://localhost/';
+//axios.defaults.baseURL = 'https://voooice.herokuapp.com/'
 
 Vue.use(VueAxios, axios)
 

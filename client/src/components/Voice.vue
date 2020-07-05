@@ -39,7 +39,7 @@
         }
 
         get sound(): string {
-            return `/${this.item.sound}`
+            return `${this.item.sound}`
         }
 
         toggle() {
