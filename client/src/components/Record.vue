@@ -65,11 +65,9 @@
                 headers: {'content-type': 'multipart/form-data'}
             }).then((res: any) => {
                 this.$emit('update', res.data)
-                console.log('s')
 
             }).catch((error: any) => {
                 new Error(error)
-                console.log('e')
             });
         }
 
