@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f71dbdd3-650e-48e2-918d-d3a13d240b69" name="test" comment="">
-      <change beforePath="$PROJECT_DIR$/public/css/index.ea6c4260.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/index.13b3a43c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/index.13b3a43c.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SpaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SpaController.php" afterDir="false" />
     </list>
     <list id="eae61dd9-c8bc-4048-a197-8e890186009a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,15 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/filesystems.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="58" column="29" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,13 +79,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SpaController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -175,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/SpaController.php" />
         <option value="$PROJECT_DIR$/client/prettierrc.js" />
         <option value="$PROJECT_DIR$/client/.eslintrc.js" />
         <option value="$PROJECT_DIR$/database/migrations/2020_04_12_060918_crate_sounds_table.php" />
@@ -208,6 +208,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/RecordController.php" />
         <option value="$PROJECT_DIR$/client/src/components/Voice.vue" />
         <option value="$PROJECT_DIR$/client/src/components/Record.vue" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SpaController.php" />
       </list>
     </option>
   </component>
@@ -348,7 +349,36 @@
             <path>
               <item name="laravel-with-vue-cli" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel-with-vue-cli" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-with-vue-cli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-with-vue-cli" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-with-vue-cli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-with-vue-cli" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-with-vue-cli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-with-vue-cli" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-with-vue-cli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-with-vue-cli" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-with-vue-cli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-with-vue-cli" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-with-vue-cli" type="b2602c69:ProjectViewProjectNode" />
@@ -466,13 +496,13 @@
       <option name="project" value="LOCAL" />
       <updated>1589609819675</updated>
       <workItem from="1589609819795" duration="1077000" />
-      <workItem from="1593910320492" duration="5942000" />
+      <workItem from="1593910320492" duration="6281000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93231000" />
+    <option name="totallyTimeSpent" value="93570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="42" y="23" width="1238" height="777" extended-state="0" />
@@ -506,14 +536,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SpaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/prettierrc.js" />
     <entry file="file://$PROJECT_DIR$/client/.eslintrc.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -846,6 +868,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SpaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
