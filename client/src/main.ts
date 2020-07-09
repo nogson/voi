@@ -9,7 +9,7 @@ import "./registerServiceWorker";
 Vue.config.productionTip = false;
 
 //axios.defaults.baseURL = 'http://localhost/';
-axios.defaults.baseURL = 'http://13.113.68.244/'
+axios.defaults.baseURL = 'https://voi.nogson.work/'
 
 Vue.use(VueAxios, axios)
 
