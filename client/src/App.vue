@@ -6,6 +6,10 @@
       <spinner2/>
     </div>
     <Record @update="update"/>
+    <iframe
+            allow="camera;microphone"
+            src="https://webrtc.github.io/samples/src/content/getusermedia/gum/">
+    </iframe>
   </div>
 </template>
 
